@@ -1,6 +1,8 @@
 using System;
 using System.IO;
+using AventStack.ExtentReports;
 using NUnit.Framework;
+using NunitDDF.Generic;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -9,11 +11,15 @@ namespace NunitDDF
     public class BrowserDriver
     {
         private IWebDriver driver;
+        ExtentReports extentReports;
+        ExtentTest extent;
+         
 
         [SetUp]
         public void Initialize()
         {
             driver = new ChromeDriver(@"/Users/michaelwitter/Downloads");
+            extentReports = ExtentManager.getInstance();
         }
 
         [TearDown]
