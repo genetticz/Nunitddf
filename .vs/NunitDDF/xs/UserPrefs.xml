@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{625B5A01-E913-4D99-98E0-43980E7FB638}|Default">
+  <MonoDevelop.Ide.ItemProperties.NunitDDF FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NunitDDF/Generic/ExcelDataParser.cs">
+    <Files>
+      <File FileName="NunitDDF/Generic/ExtentManager.cs" Line="4" Column="41" />
+      <File FileName="NunitDDF/Generic/BrowserDriver.cs" Line="22" Column="57" />
+      <File FileName="NunitDDF/Generic/ExcelReader.cs" Line="5" Column="6" />
+      <File FileName="NunitDDF/Generic/ExcelDataParser.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NunitDDF" expanded="True">
+            <Node name="NunitDDF" expanded="True">
+              <Node name="Generic" expanded="True">
+                <Node name="ExcelDataParser.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
