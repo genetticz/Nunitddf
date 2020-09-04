@@ -9,7 +9,7 @@ namespace NunitDDF.Generic
     {
         public static ExtentHtmlReporter htmlreporter;
         private static ExtentReports extent;
-
+        
         public static ExtentReports getInstance()
         {
             if (extent == null)
@@ -19,7 +19,7 @@ namespace NunitDDF.Generic
                 string screenShotName = "reportName_" + DateTime.Now.ToString("MM_dd_yyyy_HH_mm_ss_fff");
                 htmlreporter = new ExtentHtmlReporter(parentfolder );
                 extent = new ExtentReports();
-                extent.AttachReporter(htmlreporter);
+                extent.AttachReporter(htmlreporter); 
             }
             return extent;
         }
