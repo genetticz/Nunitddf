@@ -8,9 +8,9 @@ namespace NunitDDF.Test
     public class FormPageTest
     {
         [Test, TestCaseSource(typeof(ExcelReader), nameof(ExcelReader.ReadExcel))]
-        public void SimpleTest(IList<string> mike)
+        public void SimpleTest(IList<string> list)
         {
-            Console.WriteLine("Output " + mike[0]);
+            Console.WriteLine("Output " + list[0]);
         }
     }
 }
