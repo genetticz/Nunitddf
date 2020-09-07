@@ -19,7 +19,6 @@ namespace NunitDDF
         [SetUp]
         public void Initialize()
         {
-            
             driver = new ChromeDriver(@"/Users/michaelwitter/Downloads");
             extentReports = ExtentManager.getInstance();
             extent = extentReports.CreateTest(TestContext.CurrentContext.Test.MethodName, TestContext.CurrentContext.Test.Name);
@@ -52,6 +51,7 @@ namespace NunitDDF
                     extent.Log(logstatus, "Test ended with " + logstatus);
                     break;
             }
+            extentReports.Flush();
             driver.Quit();
         }
 
