@@ -16,7 +16,6 @@ namespace NunitDDF.Generic
             {
                 string workingDirectory = Environment.CurrentDirectory;
                 string parentfolder = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
-                Console.WriteLine("parent directory " + parentfolder);
                 htmlreporter = new ExtentHtmlReporter(parentfolder + "/Report/");
                 extent = new ExtentReports();
                 extent.AttachReporter(htmlreporter); 
