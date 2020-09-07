@@ -49,7 +49,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">09/06/2020 21:25:47</span>
+                    <span class="badge badge-primary">09/07/2020 13:38:18</span>
                 </a>
             </li>
         </ul>
@@ -104,7 +104,7 @@
 						<i class="fa fa-exclamation-circle"></i>
 					</a>
 					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>																																				<div class="dropdown-divider"></div>
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>						<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																														<div class="dropdown-divider"></div>
 						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 					</ul>
 				</li>
@@ -118,19 +118,71 @@
 						</div>
 						<div class="open-test">
 							<div class="test-detail"> 
-								<p class="name">FormTest</p> 
-								<p class="duration text-sm">0h:0m:2s+534ms</p> 
-								<span class="datetime">21:25:47 PM</span>
+								<p class="name">TitleTest</p> 
+								<p class="duration text-sm">0h:0m:1s+443ms</p> 
+								<span class="datetime">13:38:18 PM</span>
 							</div>
 						</div>
 						<div class="test-contents d-none">
 							<div class="detail-head">
 								<div class="p-v-10 d-inline-block">	
 									<div class="info">
-										<h5 class="test-status text-pass">FormTest</h5>
-										<span class='badge badge-success'>09/06/2020 21:25:47</span>
-										<span class='badge badge-danger'>09/06/2020 21:25:50</span>
-										<span class='badge badge-default'>0h:0m:2s+534ms</span>
+										<h5 class="test-status text-pass">TitleTest</h5>
+										<span class='badge badge-success'>09/07/2020 13:38:18</span>
+										<span class='badge badge-danger'>09/07/2020 13:38:20</span>
+										<span class='badge badge-default'>0h:0m:1s+443ms</span>
+									</div>
+																		<div class="m-t-10 m-l-5">
+										TitleTest
+									</div>
+								</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>13:38:20</td>
+				<td>
+Test steps finished for test case TitleTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>13:38:20</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="fail" author="" device="" tag="" test-id="2"> 
+						<div class="status-avatar fail-bg">
+							<i class="fa fa-times text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">FormTest</p> 
+								<p class="duration text-sm">0h:0m:2s+371ms</p> 
+								<span class="datetime">13:38:24 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-fail">FormTest</h5>
+										<span class='badge badge-success'>09/07/2020 13:38:24</span>
+										<span class='badge badge-danger'>09/07/2020 13:38:26</span>
+										<span class='badge badge-default'>0h:0m:2s+371ms</span>
 									</div>
 																		<div class="m-t-10 m-l-5">
 										FormTest
@@ -147,22 +199,31 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-check text-pass"></i></td>
-				<td>21:25:50</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>13:38:26</td>
 				<td>
-Test steps finished for test case FormTest									</td>
+Test steps NOT Completed for Test case FormTest									</td>
 			</tr>
 			<tr class="event-row">
-				<td><i class="fa fa-check text-pass"></i></td>
-				<td>21:25:50</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>13:38:26</td>
 				<td>
-Test ended with Pass									</td>
+Test ended with Fail –   Expected string length 38 but was 37. Strings differ at index 36.
+  Expected: "Please, fill in the following fieldss:"
+  But was:  "Please, fill in the following fields:"
+  -----------------------------------------------^									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>13:38:26</td>
+				<td>
+Snapshot below for Test Case :  FormTest AventStack.ExtentReports.ExtentTest									</td>
 			</tr>
 	</tbody>
 </table>
 
 </div>    
-						</div>
+<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='/Users/michaelwitter/Projects/NunitDDF/NunitDDF/screenshots/screenShotName_09_07_2020_13_38_26_687.png' src='/Users/michaelwitter/Projects/NunitDDF/NunitDDF/screenshots/screenShotName_09_07_2020_13_38_26_687.png' data-src='/Users/michaelwitter/Projects/NunitDDF/NunitDDF/screenshots/screenShotName_09_07_2020_13_38_26_687.png'>						</div>
 					</li>
             </ul>    
         </div>
@@ -195,11 +256,11 @@ Test ended with Pass									</td>
 	                </div>
 	            </div>
 	            <div class="card-footer">
-	                <div><small data-tooltip='100%'>
+	                <div><small data-tooltip='50%'>
 	                    <b>1</b> tests passed
                     </small></div>
 	                <div>
-	                    <small data-tooltip='0%'><b>0</b> tests failed, 
+	                    <small data-tooltip='50%'><b>1</b> tests failed, 
 	                    <b data-tooltip='0%'>0</b> others
 	                    </small>
                     </div>
@@ -214,10 +275,10 @@ Test ended with Pass									</td>
 	                <div class="media justify-content-between">
 						<div>
 							<h6 class="card-title">Tests</h6>
-							<h2 class="font-size-28 font-weight-light">1</h2>
+							<h2 class="font-size-28 font-weight-light">2</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-								<span>100%</span>
+								<span>50%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -233,7 +294,7 @@ Test ended with Pass									</td>
 	                <div class="media justify-content-between">
 						<div>
 							<h6 class="card-title">Start</h6>
-							<h6 class="font-weight-light">09/06/2020 21:25:47</h6>
+							<h6 class="font-weight-light">09/07/2020 13:38:18</h6>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -249,7 +310,7 @@ Test ended with Pass									</td>
 	                <div class="media justify-content-between">
 						<div>
 							<h6 class="card-title">Duration</h6>
-							<h6 class="font-weight-light">00:00:02.5596520</h6>
+							<h6 class="font-weight-light">00:00:07.9668150</h6>
 							<span class="text-semibold text-danger font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -265,7 +326,7 @@ Test ended with Pass									</td>
 	                <div class="media justify-content-between">
 						<div>
 							<p class="">Duration</p>
-							<h6 class="font-weight-light">00:00:06.2700870</h6>
+							<h6 class="font-weight-light">00:00:07.9748230</h6>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -281,14 +342,14 @@ Test ended with Pass									</td>
 </div>
 <script>
 	var statusGroup = {
-    parentCount: 1,
+    parentCount: 2,
 		passParent: 1,
-		failParent: 0,
+		failParent: 1,
 		fatalParent: 0,
 		errorParent: 0,
 		warningParent: 0,
 		skipParent: 0,
-		exceptionsParent: 0,
+		exceptionsParent: 1,
 		childCount: 0,
 		passChild: 0,
 		failChild: 0,

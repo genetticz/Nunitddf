@@ -20,5 +20,7 @@
     <Folder Include="Test\" />
     <Folder Include="Generic\" />
     <Folder Include="Resources\" />
+    <Folder Include="screenshots\" />
+    <Folder Include="Report\" />
   </ItemGroup>
 </Project>

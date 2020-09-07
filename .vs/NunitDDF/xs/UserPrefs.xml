@@ -1,25 +1,29 @@
 ﻿<Properties StartupConfiguration="{625B5A01-E913-4D99-98E0-43980E7FB638}|Default">
   <MonoDevelop.Ide.ItemProperties.NunitDDF PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NunitDDF/Pages/AutomationPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NunitDDF/Test/EmptyClass.cs">
     <Files>
-      <File FileName="NunitDDF/Generic/ExtentManager.cs" Line="14" Column="10" />
-      <File FileName="NunitDDF/Generic/BrowserDriver.cs" />
+      <File FileName="NunitDDF/Generic/ExtentManager.cs" Line="26" Column="6" />
+      <File FileName="NunitDDF/Generic/BrowserDriver.cs" Line="61" Column="56" />
       <File FileName="NunitDDF/Generic/ExcelReader.cs" />
-      <File FileName="NunitDDF/Test/FormPageTest.cs" Line="27" Column="15" />
-      <File FileName="NunitDDF/Pages/FormPage.cs" />
-      <File FileName="NunitDDF/Pages/AutomationPage.cs" Line="21" Column="40" />
+      <File FileName="NunitDDF/Test/FormPageTest.cs" Line="28" Column="39" />
+      <File FileName="NunitDDF/Pages/FormPage.cs" Line="3" Column="25" />
+      <File FileName="NunitDDF/Pages/AutomationPage.cs" Line="16" Column="38" />
+      <File FileName="NunitDDF/Test/EmptyClass.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NunitDDF" expanded="True">
             <Node name="NunitDDF" expanded="True">
-              <Node name="Generic" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="AutomationPage.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Generic" expanded="True" />
+              <Node name="Pages" expanded="True" />
               <Node name="Resources" expanded="True" />
-              <Node name="Test" expanded="True" />
+              <Node name="Test" expanded="True">
+                <Node name="EmptyClass.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

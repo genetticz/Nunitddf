@@ -35,8 +35,9 @@ namespace NunitDDF
             {
                 case TestStatus.Failed:
                     logstatus = Status.Fail;
-                    string path = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug", string.Empty);
-                    string finalpth = path + "Defect_Screenshots\\" + DateTime.Now.ToString("yyyyMMMdd") + "\\testImage.png";
+                    //string path = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug", string.Empty);
+                    //string finalpth = path + "Defect_Screenshots\\" + DateTime.Now.ToString("yyyyMMMdd") + "\\testImage.png";
+                    string finalpth = Capture(driver);
                     extent.Log(logstatus, "Test steps NOT Completed for Test case " + TestContext.CurrentContext.Test.Name + " ");
                     extent.Log(logstatus, "Test ended with " + logstatus + " – " + errorMessage);
                     extent.Log(logstatus, "Snapshot below for Test Case :  " + TestContext.CurrentContext.Test.Name + " " + extent.AddScreenCaptureFromPath(finalpth));
@@ -51,8 +52,9 @@ namespace NunitDDF
                     extent.Log(logstatus, "Test ended with " + logstatus);
                     break;
             }
-            extentReports.Flush();
             driver.Quit();
+            extentReports.Flush();
+            
         }
 
         public string Capture(IWebDriver driver)

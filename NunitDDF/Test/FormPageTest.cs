@@ -26,7 +26,10 @@ namespace NunitDDF.Test
         {
             automationPage.GoToLink();
             automationPage.FormLink();
-
+            formpage.FormClick();
+            string expected = "Please, fill in the following fieldss:";
+            string actual = formpage.FormErr();
+            Assert.AreEqual(expected, actual);
         }
     }
 }
