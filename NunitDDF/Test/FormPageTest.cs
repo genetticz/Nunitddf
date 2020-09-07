@@ -1,16 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using NUnit.Framework;
-using NunitDDF.Generic;
+﻿using NUnit.Framework;
+using NunitDDF.Pages;
 
 namespace NunitDDF.Test
 {
-    public class FormPageTest
+    public class FormPageTest: BrowserDriver
     {
-        [Test, TestCaseSource(typeof(ExcelReader), nameof(ExcelReader.ReadExcel))]
-        public void SimpleTest(IList<string> list)
+        public AutomationPage automationPage;
+        public FormPage formpage;
+
+        [SetUp]
+        public void Initialization()
         {
-            Console.WriteLine("Output " + list[0]);
+            automationPage = new AutomationPage(driver);
+            formpage = new FormPage(driver);
+        }
+
+        //[Test, TestCaseSource(typeof(ExcelReader), nameof(ExcelReader.ReadExcel))]
+        //public void SimpleTest(IList<string> list)
+        //{
+        //    Console.WriteLine("Output " + list[0]);
+        //}
+
+        [Test]
+        public void FormTest()
+        {
+            automationPage.GoToLink();
+            automationPage.FormLink();
+
         }
     }
 }

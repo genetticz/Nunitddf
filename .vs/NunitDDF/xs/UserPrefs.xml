@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{625B5A01-E913-4D99-98E0-43980E7FB638}|Default">
   <MonoDevelop.Ide.ItemProperties.NunitDDF PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NunitDDF/Test/FormPageTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NunitDDF/Pages/AutomationPage.cs">
     <Files>
       <File FileName="NunitDDF/Generic/ExtentManager.cs" Line="14" Column="10" />
-      <File FileName="NunitDDF/Generic/BrowserDriver.cs" Line="18" Column="16" />
-      <File FileName="NunitDDF/Generic/ExcelReader.cs" Line="56" Column="17" />
-      <File FileName="NunitDDF/Test/FormPageTest.cs" Line="1" Column="1" />
+      <File FileName="NunitDDF/Generic/BrowserDriver.cs" />
+      <File FileName="NunitDDF/Generic/ExcelReader.cs" />
+      <File FileName="NunitDDF/Test/FormPageTest.cs" Line="27" Column="15" />
+      <File FileName="NunitDDF/Pages/FormPage.cs" />
+      <File FileName="NunitDDF/Pages/AutomationPage.cs" Line="21" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,19 +15,12 @@
           <Node name="NunitDDF" expanded="True">
             <Node name="NunitDDF" expanded="True">
               <Node name="Generic" expanded="True" />
-              <Node name="Pages" expanded="True" />
-              <Node name="Resources" expanded="True" />
-              <Node name="Test" expanded="True">
-                <Node name="FormPageTest.cs" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="AutomationPage.cs" selected="True" />
               </Node>
+              <Node name="Resources" expanded="True" />
+              <Node name="Test" expanded="True" />
             </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="NunitDDF" expanded="True">
-            <Node name="NunitDDF" selected="True" />
           </Node>
         </State>
       </Pad>

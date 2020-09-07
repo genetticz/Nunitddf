@@ -1,7 +1,6 @@
-﻿using System;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
-namespace SpecflowBddwNunit.Pages
+namespace NunitDDF.Pages
 {
     public class FormPage
     {
